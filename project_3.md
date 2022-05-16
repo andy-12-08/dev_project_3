@@ -129,4 +129,19 @@ For more information on this click [here](https://phoenixnap.com/kb/update-node-
 <br>
 <br>
 
+- If  the content of files are properly written, the files should run correctly. 
+<br>
+<br>
+
+![node_js](./images/react.PNG)
+<br>
+<br>
+
+The web page would look like this:
+<br>
+<br>
+
+![node_js](./images/react_web.PNG)
+
+
 
