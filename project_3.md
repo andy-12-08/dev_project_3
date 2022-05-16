@@ -66,10 +66,67 @@ Express is a framework for ***NodeJs*** (alot of things developers would have pr
 <br>
 
 - Testing the backend code without frontend, using RESTful API. <br>
-So far we have written the backend of the **To-do** application and went on to configure the database. Note that we do not have a frontend UI yet (this is usally written inn ReacJS code). But during development, we will need a way to test the backend code using RESTfulL API. Therefore, we will need to make use of some API development client to test our code. Here, we will use Postman to test our API.
+So far we have written the backend of the **To-do** application and went on to configure the database. Note that we do not have a frontend UI yet (this is usally written inn ReacJS code). But during development, we will need a way to test the backend code using RESTfulL API. Therefore, we will need to make use of some API development client to test our code. Here, we will use Postman to test our API.<br>
+
+### 2. Front End Creation
+Here we create a user interface for the web client (browser) to interact with application via API. To start out with the front end, use the ***create-react-app*** to scaffold the app. <br>
+- In the same root riectory as the backend code (which is the
+ **Todo** directory). <br>
+
+***npx create-react-app client*** 
+<br>
+- If you had issues running this command like I did, update you node package manager (npm) 
 <br>
 
+![node_js](./images/node_js_version.PNG)
+<br>
 
+![node_js](./images/node_js_version_2.PNG)
+<br>
 
+***npm cache clean -f***<br>
+***npm install -g n***<br>
+***sudo n stable*** <br>
+For more information on this click [here](https://phoenixnap.com/kb/update-node-js-version)<br>
+
+![node_js](./images/npm_stable.PNG)
+<br>
+
+![node_js](./images/npm_message.PNG)
+<br>
+<br>
+
+- If all is fixed you should get a successful message.
+
+<br>
+<br>
+
+![node_js](./images/app_on_3000.PNG)
+<br>
+
+- To load react in your browser, open TCP port 3000 and ype the IP on your browser.
+<br>
+<br>
+
+![node_js](./images/load_react.PNG)
+<br>
+<br>
+
+- Create three files ***input.js*** , ***ListTodo.js*** , and ***Todo.js*** in a newly created folder components in the */home/Todo/client/src* directory 
+<br>
+<br>
+
+![node_js](./images/components.PNG)
+<br>
+<br>
+
+- These are where you will paste your react code. <br>
+- Move to your *src* folder and install ***axios***
+<br>
+<br>
+
+![node_js](./images/axios.PNG)
+<br>
+<br>
 
 
